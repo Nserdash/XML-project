@@ -1,0 +1,48 @@
+body {
+font-family:Arial, Helvetica, sans-serif;    
+}
+
+.margin-50 {
+margin:25px 0;   
+text-align:left; 
+}
+
+.text-right {
+text-align: right;    
+}
+
+td {
+padding:10px 0;    
+}
+
+.search {
+display:flex;    
+width:500px;
+}
+
+.search input {
+border: 1px solid teal;
+border-radius: 4px;    
+padding: 10px 10px;    
+margin-right:1px;
+}
+
+.search input[type = "text"] {
+width:300px;
+}
+
+.search input[type = "submit"] {
+width:85px;
+}
+
+table {
+border: 1px solid teal;
+border-radius: 4px;     
+padding:20px;   
+}
+
+.container {
+display:flex;
+flex-direction: column;
+align-items: center;    
+}
